@@ -121,3 +121,74 @@ button:focus{
     width: 20px;
     height: 20px;
 }
+
+/* **************** Start Section Our Services **************** */
+#Our-Services{
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #eee;
+}
+#Our-Services .head{
+    text-align: center;
+    padding: 50px 290px;
+}
+#Our-Services .head p {
+    color: #a2a2a2;
+}
+#Our-Services .Quality {
+    text-transform: capitalize;
+    font-size: 20px;
+}
+#Our-Services .box{
+    height: 350px;
+    color: #fff;
+    padding: 0 30px;
+    text-align: center;
+    transition: all .3s ease-in-out;
+}
+#Our-Services .box:hover{
+    transform: translateY(-15px);
+    cursor: pointer;
+}
+#Our-Services .box .btn{
+    border-radius: 25px;
+    color: #fff;
+    border-color: #fff;
+}
+#Our-Services .box .btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+#Our-Services .box h2{
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-top: 40px;
+}
+#Our-Services .box p{
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 15px;
+}
+.orange{
+    background: linear-gradient(to bottom left, #e89d59ba, #ce8847);
+}
+.blueLight{
+    background: linear-gradient(to bottom left, #abe2ec7a, #2ba1b6);
+}
+.purpleDark{
+    background: linear-gradient(to bottom left, #8137cbc7, #58258b);
+}
+.blue{
+    background: linear-gradient(to bottom left, #2a38dec9, #3d39bc);
+}
+.purpleLight{
+    background: linear-gradient(to bottom left, #5b8cc1de, #317fd3);
+}
+.red{
+    background: linear-gradient(to bottom left, #d7756be8, #d0442d);
+}
+#Our-Services .box img{
+    width: 70px;
+    height: 65px;
+    margin: 20px 0;
+}
