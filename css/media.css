@@ -110,6 +110,18 @@
     .about p {
         font-size: 15px;
     }
+
+    /* start portfolio section */
+    #portfolio{
+        flex-direction: column;
+        padding: 50px 30px;
+    }
+    #portfolio .side-right{
+        margin-top: 27px;
+    }
+    #portfolio .port-img{
+        margin-bottom: 15px;
+    }
 }
 
 /* Small Screen */
@@ -201,6 +213,18 @@
     .powerImg{
         order: 1;
     }
+
+    /* start portfolio section */
+    #portfolio{
+        flex-direction: column;
+        padding: 50px 30px;
+    }
+    #portfolio .side-right{
+        margin-top: 27px;
+    }
+    #portfolio .port-img{
+        margin-bottom: 15px;
+    }
 }
 
 /* Medium Screen */
@@ -273,6 +297,14 @@
     #Our-Services .box {
         margin: 15px auto;
         max-width: 31.333333%;
+    }
+
+    /* start portfolio section */
+    #portfolio {
+        padding: 50px 50px;
+    }
+    #portfolio .port-img {
+        margin-bottom: 50px;
     }
 }
 

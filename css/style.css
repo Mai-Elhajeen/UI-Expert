@@ -243,3 +243,107 @@ button:focus{
     color: #a9a9a9;
     margin-left: 20px;
 }
+
+/* **************** start portfolio section **************** */
+#portfolio{
+    background: #eee;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 50px 100px;
+}
+#portfolio .side-left{
+    flex-basis:35%
+}
+.side-left p{
+    color: #a2a2a2;
+}
+#portfolio .side-right{
+    flex-basis:65%
+}
+#portfolio .row .div-img2{
+    width: 220px;
+    height: 157px;
+    margin: auto;
+}
+#portfolio .nav{
+    display: flex;
+    flex-direction: column;
+}
+#portfolio .nav .active{
+    color: #1c17b4;
+    font-weight: bold;
+}
+#portfolio .nav .active::after{
+    content: '';
+    width: 157px;
+    height: 3px;
+    background-color: #1c17b4;
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+    border-radius: 12px;
+}
+#portfolio .nav a{
+    width: 50%;
+    padding: 15px 0;
+    text-decoration: none;
+    color: #41415f;
+    position: relative;
+    transition: all .3s ease-in-out;
+}
+#portfolio .nav a:hover{
+    color: #1c17b4;
+    font-weight: bold;
+}
+#portfolio .nav a:hover::after{
+    content: '';
+    width: 157px;
+    height: 3px;
+    background-color: #1c17b4;
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+    border-radius: 12px;    
+}
+.slide{
+    display: flex;
+    flex-direction: column;
+}
+#portfolio .port-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+#portfolio .port-img {
+    flex-basis: 40%;
+    margin: 0 5%;
+    width: 160px;
+    height: 160px;
+    margin-bottom: 100px;
+}
+.port-img img{
+    width: 100%;
+    object-fit: cover;
+}
+/* carousel */
+.carousel-indicators{
+    bottom: -50px;
+}
+.carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    background-color: #1c17b4;
+    border-radius: 50%;
+}
+.carousel-indicators .active {
+    width: 50px;
+    height: 15px;
+    border-radius: 14px;
+}
+.carousel-item.active {
+    opacity: 1;
+}
+.carousel-item{
+    opacity: 0;
+}
