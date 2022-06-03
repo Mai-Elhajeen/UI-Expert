@@ -75,6 +75,18 @@
     #header .link{
         font-size: 20px;
     }
+
+    /* Start Section Our Services  */
+    #Our-Services .head {
+        padding: 50px 60px;
+    }
+    .Quality {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    #Our-Services .box {
+        margin: 15px;
+    }
 }
 
 /* Small Screen */
@@ -139,6 +151,19 @@
         padding-left: 20px;
         border: 5px;
     }
+
+    /* Start Section Our Services  */
+    #Our-Services .head {
+        padding: 50px 60px;
+    }
+    .Quality {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    #Our-Services .box {
+        margin: 15px auto;
+        max-width: 47%;
+    }
 }
 
 /* Medium Screen */
@@ -199,14 +224,55 @@
         padding-left: 20px;
         border: 5px;
     }
+    
+    /* Start Section Our Services  */
+    #Our-Services .head {
+        padding: 50px 60px;
+    }
+    .Quality {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    #Our-Services .box {
+        margin: 15px auto;
+        max-width: 31.333333%;
+    }
 }
 
 /* Large Screen*/
 @media(min-width: 992px) and (max-width: 1199.98px) {
-
+    /* Start Section Our Services  */
+    #Our-Services .head {
+        padding: 50px 60px;
+    }
+    .Quality {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    #Our-Services .box {
+        margin: 15px auto;
+        max-width: 31.333333%;
+    }
+    #Our-Services .head p {
+        padding: 0px 140px;
+    }
 }
 
 /* Extra Large Screen*/
 @media(min-width: 1200px) {
-
+    /* Start Section Our Services  */
+    #Our-Services .head {
+        padding: 50px 60px;
+    }
+    .Quality {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    #Our-Services .box {
+        margin: 15px auto;
+        max-width: 31.333333%;
+    }
+    #Our-Services .head p {
+        padding: 0px 140px;
+    }
 }
