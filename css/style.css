@@ -347,3 +347,55 @@ button:focus{
 .carousel-item{
     opacity: 0;
 }
+
+/* **************** start success section **************** */
+#Success{
+    padding: 88px 0;
+    text-align: center;
+}
+#Success h2{
+    font-size: 50px;
+}
+#Success p{
+    font-size: 15px;
+    color: #a2a2a2;
+    margin-top: 15px;
+}
+#Success .box-success{
+    box-shadow: 0px 15px 20px #eee;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 159px;
+    flex-direction: column;
+    margin-top: 64px;
+    transition: all .3s ease-in-out;
+}
+#Success .box-success:hover{
+    transform: translateY(-15px);
+    cursor: pointer;
+}
+#Success .rate{
+    width: 100px;
+    height: 100px;
+    border-radius: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #fff;
+}
+#Success .blue{
+    background: linear-gradient(to bottom left, #0657b0, #2ba1b6);
+    box-shadow: 0px 25px 25px -15px #0657b0;
+}
+#Success .pink{
+    background: linear-gradient(to bottom left, #dd2d1ae8, #f0a5b1b5);
+    box-shadow: 0px 25px 25px -15px #dd2d1ae8;
+}
+#Success .orange{
+    background: linear-gradient(to bottom left, #e8750d, #ddad7f70);
+    box-shadow: 0px 25px 25px -15px #e8750d;
+}
