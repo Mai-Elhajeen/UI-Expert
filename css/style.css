@@ -648,7 +648,7 @@ button:focus{
     font-size: 15px;
 }
 
-/* start blog section */
+/* **************** start blog section **************** */
 .blog{
     text-align: center;
     width: 100%;
@@ -696,4 +696,87 @@ button:focus{
 .div-card .logo:hover{
     transform: scale(.9);
     cursor: pointer;
+}
+
+/* **************** start footer **************** */
+.footer{
+    padding-top: 50px;
+}
+.footer .row{
+    display: flex;
+    justify-content: center;
+}
+.f-content {
+    flex-basis: 20%;
+    margin: 15px 25px;
+}
+.f-content .navbar-brand{
+    color: #090663;
+    font-size: 25px;
+    font-weight: bold;
+}
+.f-content .uiexpert{
+    font-weight: 100;
+}
+.f-content .f-para{
+    font-size: 13px
+}
+.social{
+    display: flex;
+}
+.media{
+    width: 40px;
+    height: 40px;
+    background: #090663;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+.media:hover{
+    background: none;
+}
+.media a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all .3s;
+}
+.media:hover a{
+    color: #090663;
+    font-size: 28px;
+}
+.footer .about p{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.column a{
+    text-decoration: none;
+    padding-top: 7px;
+    color: #090663;
+    font-size: 18px;
+    font-family: sans-serif;
+    transition: all .3s ease-in-out;
+}
+.f-contact span{
+    color: #090663;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.f-contact span a{
+    padding-left: 10px;
+    transition: all .3s ease-in-out;
+    font-weight: 100;
+}
+.f-content .link:hover{
+    color: #F38734;
+}
+.copyright{
+    margin-top: 20px;
+    transform: translate(10px, 0);
 }
