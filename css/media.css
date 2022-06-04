@@ -122,6 +122,12 @@
     #portfolio .port-img{
         margin-bottom: 15px;
     }
+
+    /* start success section */
+    #Success {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
 }
 
 /* Small Screen */
