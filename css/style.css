@@ -647,3 +647,53 @@ button:focus{
 .content-workflow span{
     font-size: 15px;
 }
+
+/* start blog section */
+.blog{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: #fafafa;
+}
+.blog h2{
+    font-size: 45px;
+}
+.blog .container{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.box-card{
+    width: 16rem;
+    margin: 25px;
+    height: 470px;
+}
+.blog .card{
+    border: none;
+    box-shadow: 0 0 20px #eee;
+    transition: all .3s ease-in-out;
+}
+.blog .card:hover{
+    transform: translateY(-15px);
+    cursor: pointer;
+}
+.blog .card-body{
+    text-align: left;
+    padding: 0 35px;
+}
+.blog .card-body .icon span{
+    font-size: 35px;
+}
+.div-card{
+    margin: auto;
+}
+.logo{
+    width: 160px;
+    margin-left: 15px;
+    transition: all .3s ease-in-out;
+
+}
+.div-card .logo:hover{
+    transform: scale(.9);
+    cursor: pointer;
+}
