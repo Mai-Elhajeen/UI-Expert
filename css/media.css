@@ -157,6 +157,15 @@
         flex-direction: column;
         padding: 30px 50px;
     }
+
+    /* start design sketch and test section */
+    .DST-boxes .box {
+        flex-basis: 100%;
+        margin-bottom: 32px;
+    }
+    .DST-boxes .row{
+        margin: 0;
+    }
 }
 
 /* Small Screen */
@@ -442,4 +451,7 @@
     .div-sayer{
         display: block;
     }
+
+
+
 }
