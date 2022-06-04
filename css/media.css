@@ -188,6 +188,18 @@
     #blog .row {
         justify-content: center;
     }
+
+    /* start footer section */
+    .f-content {
+        flex-basis: 100%;
+        margin: 15px 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .social {
+        margin: 20px 0;
+    }
 }
 
 /* Small Screen */
@@ -334,6 +346,12 @@
     #blog .row {
         justify-content: center;
     }
+
+    /* start footer */
+    .f-content {
+        flex-basis: 40%;
+        margin: 15px 20px;
+    }
 }
 
 /* Medium Screen */
@@ -453,6 +471,11 @@
         flex-basis: 54%;
         margin-left: 10%;
     }
+
+    /* start footer */
+    .footer .row {
+        justify-content: flex-start;
+    }
 }
 
 /* Large Screen*/
@@ -481,6 +504,12 @@
         padding: 100px 100px;
         color: #eee;
         text-align: center;
+    }
+
+    /* start footer */
+    .f-content {
+        flex-basis: 20%;
+        margin: 15px 15px;
     }
 }
 
