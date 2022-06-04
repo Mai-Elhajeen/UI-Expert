@@ -399,3 +399,104 @@ button:focus{
     background: linear-gradient(to bottom left, #e8750d, #ddad7f70);
     box-shadow: 0px 25px 25px -15px #e8750d;
 }
+
+/* **************** start what-say section **************** */
+.what-say{
+    max-width: 100%;
+    max-height: 100%;
+    background: #08021e;
+    padding: 90px 275px;
+    color: #eee;
+    text-align: center;
+}
+.what-say h2{
+    font-size: 40px;
+    color: #eee;
+}
+.what-say .para{
+    font-size: 15px;
+    color: #74768c;
+}
+.sayer1{
+    transform: translate(-160px, 370px);
+}
+.sayer2{
+    transform: translate(-200px, 220px);
+}
+.sayer3{
+    transform: translate(-100px, 240px);
+}
+.sayer4{
+    transform: translate(-545px, 190px);
+}
+.sayer5{
+    transform: translate(-456px, 80px);
+}
+.sayer6{
+    transform: translate(95px, 241px);
+}
+.sayer7{
+    transform: translate(175px, 74px);
+}
+.sayer8{
+    transform: translate(275px, 215px);
+}
+.sayer9{
+    transform: translate(500px, 280px);
+}
+.sayer10{
+    transform: translate(389px, 125px);
+}
+.what-say .content {
+    padding: 0px 0px 70px 0;
+    position: relative;
+}
+.what-say .content .num-rate{
+    padding: 15px;
+    background: orange;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    transform: translate(-125px, 145px);
+}
+.comment{
+    padding-top: 55px;
+}
+.Cris{
+    display: block;
+    font-size: 23px;
+    color: #5291d4;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.CsWeb{
+    font-size: 18px;
+}
+.what-say hr{
+    background: #74768c;
+}
+.foot-say{
+    text-align: left;
+    padding-top: 15px;
+}
+.foot-say span{
+    color: #a2a2a2;
+    text-transform: capitalize;
+    
+}
+.foot-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+.foot-content p{
+    font-size: 20px;
+}
+.foot-content .wave{
+    width: 190px;
+    font-size: 20px;
+    height: 50px;
+    box-shadow: none;
+}
