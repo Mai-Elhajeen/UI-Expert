@@ -473,6 +473,9 @@ button:focus{
 .CsWeb{
     font-size: 18px;
 }
+.div-sayer {
+    display: none;
+}
 .what-say hr{
     background: #74768c;
 }
