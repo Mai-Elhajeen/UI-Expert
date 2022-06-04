@@ -504,7 +504,7 @@ button:focus{
     box-shadow: none;
 }
 
-/* start design-sketches-testing-section */
+/* **************** start design-sketches-testing-section **************** */
 .DST-boxes{
     max-width: 100%;
     max-height: 100%;
@@ -572,4 +572,78 @@ button:focus{
 }
 .DST-boxes .box .details p{
     font-size: 14px;
+}
+
+/* **************** start workflow section **************** */
+.workflow{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 80px 135px;
+}
+.left-side{
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+}
+.left-side img{
+    width: 100%;
+    height: 500px;
+}
+.right-side{
+    flex-basis: 55%;
+    margin-left: 5%;
+}
+.right-side .para{
+    padding-right: 130px;
+}
+.part{
+    display: flex;
+    margin-right: 35px;
+    padding-bottom: 20px;
+}
+.part .ball{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: #fff;
+}
+.part .blue{
+    background: #1e1ec9;
+}
+.part .plumLight{
+    background: #9c62d3;
+}
+.part .gold{
+    background: gold;
+}
+.part .salmon{
+    background: #f06e60;
+}
+.part .plumDark{
+    background: #7322c0;
+}
+.part .orange{
+    background: orange;
+}
+.part .lightblue{
+    background: #40daee;
+}
+.part .purple{
+    background: #bd03bd;
+}
+.part .red{
+    background: #b62727;
+}
+.content-workflow{
+    margin-left: 20px;
+}
+.content-workflow p{
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.content-workflow span{
+    font-size: 15px;
 }
